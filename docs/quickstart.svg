@@ -1,0 +1,63 @@
+<svg viewBox="0 0 960 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 카드 -->
+  <rect x="10" y="10" width="940" height="180" rx="16" fill="#1a1b26" stroke="#565f89" stroke-width="1"/>
+
+  <!-- 스텝 1 -->
+  <g>
+    <!-- 번호 원 -->
+    <circle cx="110" cy="65" r="25" fill="#5865F2"/>
+    <text x="110" y="72" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#c0caf5" text-anchor="middle">1</text>
+
+    <!-- 아이콘 -->
+    <text x="110" y="125" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="28" fill="#9ece6a" text-anchor="middle">🔗</text>
+
+    <!-- 텍스트 -->
+    <text x="110" y="155" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="13" font-weight="bold" fill="#c0caf5" text-anchor="middle">유튜브 MR 링크</text>
+    <text x="110" y="172" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">붙여넣기</text>
+  </g>
+
+  <!-- 화살표 1 -->
+  <g>
+    <line x1="170" y1="65" x2="220" y2="65" stroke="#565f89" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+
+  <!-- 스텝 2 -->
+  <g>
+    <!-- 번호 원 -->
+    <circle cx="330" cy="65" r="25" fill="#5865F2"/>
+    <text x="330" y="72" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#c0caf5" text-anchor="middle">2</text>
+
+    <!-- 아이콘 -->
+    <text x="330" y="125" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="28" fill="#f7768e" text-anchor="middle">🎵</text>
+
+    <!-- 텍스트 -->
+    <text x="330" y="155" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="13" font-weight="bold" fill="#c0caf5" text-anchor="middle">곡 더블클릭</text>
+    <text x="330" y="172" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">키·템포·에코 조절</text>
+  </g>
+
+  <!-- 화살표 2 -->
+  <g>
+    <line x1="390" y1="65" x2="440" y2="65" stroke="#565f89" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+
+  <!-- 스텝 3 -->
+  <g>
+    <!-- 번호 원 -->
+    <circle cx="550" cy="65" r="25" fill="#5865F2"/>
+    <text x="550" y="72" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#c0caf5" text-anchor="middle">3</text>
+
+    <!-- 아이콘 -->
+    <text x="550" y="125" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="28" fill="#9ece6a" text-anchor="middle">🎤</text>
+
+    <!-- 텍스트 -->
+    <text x="550" y="155" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="13" font-weight="bold" fill="#c0caf5" text-anchor="middle">노래 부르기!</text>
+    <text x="550" y="172" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">모두에게 전송</text>
+  </g>
+
+  <!-- 화살표 마커 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#565f89"/>
+    </marker>
+  </defs>
+</svg>

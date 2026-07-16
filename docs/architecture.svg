@@ -1,0 +1,140 @@
+<svg viewBox="0 0 960 420" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 카드 -->
+  <rect x="10" y="10" width="940" height="400" rx="16" fill="#1a1b26" stroke="#565f89" stroke-width="1"/>
+
+  <!-- 제목 -->
+  <text x="480" y="35" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#c0caf5" text-anchor="middle">신호 흐름 (마이크 → 디스코드)</text>
+
+  <!-- 상단 흐름 (마이크) -->
+  <g>
+    <!-- 마이크 -->
+    <rect x="30" y="60" width="90" height="50" rx="8" fill="#24283b" stroke="#f7768e" stroke-width="2"/>
+    <text x="75" y="82" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="24" fill="#f7768e" text-anchor="middle">🎤</text>
+    <text x="75" y="105" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="12" fill="#c0caf5" text-anchor="middle">마이크</text>
+
+    <!-- 화살표 -->
+    <line x1="120" y1="85" x2="150" y2="85" stroke="#565f89" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- 이펙트 체인 -->
+    <rect x="150" y="60" width="120" height="50" rx="8" fill="#24283b" stroke="#565f89" stroke-width="2"/>
+    <text x="210" y="77" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">에코/리버브</text>
+    <text x="210" y="92" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">목소리 보정</text>
+    <text x="210" y="107" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">자동볼륨(AGC)</text>
+
+    <!-- 화살표 -->
+    <line x1="270" y1="85" x2="300" y2="85" stroke="#565f89" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+
+  <!-- 중단 흐름 (유튜브) -->
+  <g>
+    <!-- 유튜브 -->
+    <rect x="30" y="150" width="90" height="50" rx="8" fill="#24283b" stroke="#9ece6a" stroke-width="2"/>
+    <text x="75" y="172" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="24" fill="#9ece6a" text-anchor="middle">▶️</text>
+    <text x="75" y="195" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="12" fill="#c0caf5" text-anchor="middle">유튜브</text>
+
+    <!-- 화살표 -->
+    <line x1="120" y1="175" x2="150" y2="175" stroke="#565f89" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- MR 파일 처리 -->
+    <rect x="150" y="150" width="120" height="50" rx="8" fill="#24283b" stroke="#9ece6a" stroke-width="2"/>
+    <text x="210" y="167" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">MR (mp3)</text>
+    <text x="210" y="182" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">키/템포 조절</text>
+    <text x="210" y="197" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">가사 영상 동기</text>
+
+    <!-- 화살표 -->
+    <line x1="270" y1="175" x2="300" y2="175" stroke="#565f89" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+
+  <!-- 믹서 -->
+  <g>
+    <!-- 믹서 원 -->
+    <circle cx="330" cy="130" r="30" fill="#24283b" stroke="#5865F2" stroke-width="3"/>
+    <text x="330" y="137" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="20" fill="#5865F2" text-anchor="middle">+</text>
+
+    <!-- 입력 화살표 (마이크) -->
+    <line x1="300" y1="85" x2="315" y2="115" stroke="#f7768e" stroke-width="2" marker-end="url(#arrowhead-pink)"/>
+
+    <!-- 입력 화살표 (유튜브) -->
+    <line x1="300" y1="175" x2="315" y2="145" stroke="#9ece6a" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+  </g>
+
+  <!-- 출력 흐름 -->
+  <g>
+    <!-- 화살표 -->
+    <line x1="360" y1="130" x2="390" y2="130" stroke="#565f89" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- 피크 리미터 -->
+    <rect x="390" y="105" width="90" height="50" rx="8" fill="#24283b" stroke="#565f89" stroke-width="2"/>
+    <text x="435" y="137" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">피크 리미터</text>
+
+    <!-- 화살표 -->
+    <line x1="480" y1="130" x2="510" y2="130" stroke="#565f89" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- VB-Cable -->
+    <rect x="510" y="105" width="90" height="50" rx="8" fill="#24283b" stroke="#565f89" stroke-width="2"/>
+    <text x="555" y="130" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">VB-Cable</text>
+    <text x="555" y="145" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">가상 케이블</text>
+
+    <!-- 화살표 -->
+    <line x1="600" y1="130" x2="630" y2="130" stroke="#5865F2" stroke-width="3" marker-end="url(#arrowhead-blue)"/>
+
+    <!-- 디스코드 -->
+    <rect x="630" y="105" width="90" height="50" rx="8" fill="#24283b" stroke="#5865F2" stroke-width="3"/>
+    <text x="675" y="122" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="24" fill="#5865F2" text-anchor="middle">💬</text>
+    <text x="675" y="150" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">디스코드</text>
+  </g>
+
+  <!-- 분기 흐름 (모니터/녹음) -->
+  <g>
+    <!-- 믹서에서 분기 -->
+    <line x1="330" y1="160" x2="330" y2="210" stroke="#565f89" stroke-width="2"/>
+    <line x1="300" y1="210" x2="360" y2="210" stroke="#565f89" stroke-width="2"/>
+
+    <!-- 모니터 -->
+    <rect x="200" y="210" width="100" height="50" rx="8" fill="#24283b" stroke="#565f89" stroke-width="2"/>
+    <text x="250" y="232" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="24" fill="#c0caf5" text-anchor="middle">🎧</text>
+    <text x="250" y="255" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">모니터</text>
+
+    <!-- 녹음 -->
+    <rect x="360" y="210" width="100" height="50" rx="8" fill="#24283b" stroke="#565f89" stroke-width="2"/>
+    <text x="410" y="232" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="24" fill="#c0caf5" text-anchor="middle">⏺️</text>
+    <text x="410" y="255" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5" text-anchor="middle">녹음 WAV</text>
+  </g>
+
+  <!-- 범례 -->
+  <g>
+    <text x="30" y="310" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="12" font-weight="bold" fill="#c0caf5">입력</text>
+    <rect x="30" y="320" width="20" height="20" fill="none" stroke="#f7768e" stroke-width="2"/>
+    <text x="60" y="335" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5">마이크</text>
+
+    <rect x="150" y="320" width="20" height="20" fill="none" stroke="#9ece6a" stroke-width="2"/>
+    <text x="180" y="335" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5">유튜브 MR</text>
+
+    <text x="330" y="310" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="12" font-weight="bold" fill="#c0caf5">처리</text>
+    <rect x="330" y="320" width="20" height="20" rx="10" fill="none" stroke="#565f89" stroke-width="2"/>
+    <text x="360" y="335" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5">이펙트/필터</text>
+
+    <text x="550" y="310" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="12" font-weight="bold" fill="#c0caf5">출력</text>
+    <rect x="550" y="320" width="20" height="20" fill="none" stroke="#5865F2" stroke-width="3"/>
+    <text x="580" y="335" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5">디스코드</text>
+
+    <rect x="720" y="320" width="20" height="20" fill="none" stroke="#565f89" stroke-width="2"/>
+    <text x="750" y="335" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="11" fill="#c0caf5">로컬</text>
+  </g>
+
+  <!-- 화살표 마커 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#565f89"/>
+    </marker>
+    <marker id="arrowhead-pink" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#f7768e"/>
+    </marker>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#9ece6a"/>
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#5865F2"/>
+    </marker>
+  </defs>
+</svg>
