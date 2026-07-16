@@ -1,0 +1,7 @@
+sounddevice>=0.4.6
+numpy>=1.24.0
+pedalboard>=0.8.1
+yt-dlp>=2024.1.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+sv-ttk>=2.5.0

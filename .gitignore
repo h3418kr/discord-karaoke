@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller 빌드 산출물
+dist/
+build/
+*.spec
+
+# 배포 패키지 (대용량 zip, VB-Cable 재배포본)
+배포/
+
+# 개인 데이터 — 커밋 금지
+settings.json
+녹음/
+MR/
+selftest.log
+test_recording.wav
+*.mp3
+*.mp4
+*.m4a
+*.wav
